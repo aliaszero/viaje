@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title></title>
+</head>
+
+<body>
+    <!--header -->
+    <header>
+        <div class="container-fluid">
+
+            <div class="row justify-content-center ">
+                <div class="card bg-dark text-white my-3 mx-3">
+                    <img src="./img/4540.png" class="card-img " alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+                <div class="btn-toolbar " role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2 " role="group" aria-label="First group">
+                      
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#destino">Destino</button>
+                        <button type="button" class="btn btn-info" data-toggle="modal"
+                            data-target="#discapacidad">Discapacidad</button>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!--Fin header-->
+    <!--top viaje-->
+    <div class="col">
+        <div class="row">
+            <div class="card-deck mx-3 my-3">
+                <div class="card">
+                    <img src="./img/images_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valle del Cocora </h5>
+                        <p class="card-text">El valle de Cocora es un paisaje natural localizado en la cordillera
+                            central de los Andes colombianos, específicamente en el departamento del Quindío, en el
+                            área de influencia del Parque nacional natural Los Nevados. Cuenta con algunas
+                            poblaciones del árbol nacional de Colombia, la palma de cera del Quindío, así como de
+                            una gran variedad de flora y fauna, mucha de ella en peligro de extinción, protegida
+                            bajo el estatus de parque nacional natural</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/images_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Piedra del Peñol</h5>
+                        <p class="card-text">El peñón de Guatapé, o piedra del Peñol, es un monolito de 220 metros
+                            de altura, localizado en Guatapé, Antioquia, Colombia.​ La piedra de El Peñol es una
+                            masa granítica, compuesta por cuarzo, feldespato y mica, fue escalada por primera vez en
+                            16 de julio de 1954 por un habitante de la zona, Luis Eduardo Villegas López. Hasta
+                            ahora la piedra sigue perteneciendo a la familia Villegas.​</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/images_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Castillo de San Felipe de Barajas</h5>
+                        <p class="card-text">El Castillo San Felipe de Barajas es una fortificación localizada en la
+                            ciudad de Cartagena de Indias en Colombia. Su nombre real es Fuerte de San Felipe de
+                            Barajas. Está situado sobre un cerro llamado San Lázaro y fue construido en 1657 durante
+                            la época colonial española. Sufrió constantes ataques por parte de los ingleses y
+                            franceses, siendo el comandante francés Barón de Pointis quien tomara el castillo a
+                            mediados de 1697. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin top viaje-->
+
+    <!-- Modal destino-->
+    <div class="modal fade " id="destino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-hiking"></i> Destino </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-10">
+                            <input class="form-control bg-dark text-white" type="text" placeholder="">
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-info">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col my-3">
+                            <div class="card-deck " id="top_destino">
+                                <div class="card">
+                                    <img src="./img/1.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card">
+                                    <img src="./img/2.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card">
+                                    <img src="./img/3.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card">
+                                    <img src="./img/4.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Discapacidad -->
+    <div class="modal fade" id="discapacidad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header  bg-info text-white">
+                    <h5 class="modal-title" id="exampleModalLabel"><i class="fab fa-accessible-icon"></i> Discapacidad
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Monoplejia
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                    Paraplejia
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3">
+                                    Tetraplejia
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3">
+                                    Tetraplejia
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                <label class="form-check-label" for="defaultCheck4">
+                                    Hemiplegia
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                <label class="form-check-label" for="defaultCheck5">
+                                    Espina bífida
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                <label class="form-check-label" for="defaultCheck6">
+                                    Distrofia muscular
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="form-check  ">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                <label class="form-check-label" for="defaultCheck7">
+                                    Parálisis cerebral
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  py-3">
+                        <div class="col-10">
+                            <input class="form-control bg-dark text-white" type="text" placeholder="">
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-info">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col my-3">
+                            <div class="card-deck " id="top_destino">
+                                <div class="card">
+                                    <img src="./img/1.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card">
+                                    <img src="./img/2.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card">
+                                    <img src="./img/3.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                                <div class="card">
+                                    <img src="./img/4.jpg" class="card-img-top" alt="...">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
